@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> :: CHENAE :: </title>
+
+<!-- custom-theme -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Splendid Countdown Widget Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, Chenae, Skylove, Mainme" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<!-- //custom-theme -->
+	<link href="style.css" rel="stylesheet" type="text/css" media="all" />
+
+<!-- font-awesome-icons -->
+	<link href="font-awesome.css" rel="stylesheet"> 
+
+<!-- //font-awesome-icons -->
+	<link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico">
+
+
+</head>
+
+<body>
+
+	<div class="main">	
+		<h1><br><br>소중한 만남을 함께 해 주셔서 정말 고맙습니다.</h1>
+
+
+		<div class="w3_agile_main_grids">
+			<p class="wthree_para">함께 할 수 있는 시간이 길었으면 정말 행복하겠습니다.</p>
+			<h2 class="w3layouts w3">지금 이렇게 좋은 시간 열심히 해 주세요.</h2>
+
+
+			<div class="countdown agile">
+				<div class="countdown-time agileits_w3layouts">
+					<ul class="clearfix w3_agileits" id="js-countDown">
+						<li class="item"><i class="day">00</i><span>days</span></li>
+						<li class="blank">:</li>
+						<li class="item"><i class="hour">00</i><span>hours</span></li>
+						<li class="blank">:</li>
+						<li class="item"><i class="minute">00</i><span>minutes</span></li>
+						<li class="blank">:</li>
+						<li class="item"><i class="second">00</i><span>seconds</span></li>
+						<li class="blank">:</li>
+						<li class="item"><i class="ms">00</i><span>millisec</span></li>
+					</ul>
+				</div>
+			</div>
+
+
+			<div class="agileits_newsletter">
+				<h3>마음을 꼭 닫으면서 살았다면 이젠 그 마음의 문을 여십시오.<br>
+마음 씀이 비록 크지 않더라도 그것을 주변의 사람을 향하여 미소로서 대하며 사십시오.<br>
+이는 내가 사랑을 받고 나눠야 할 책임이기 때문입니다. <br><br>
+
+
+저의 작은 미소를 보내 드려요.<br><br></h3>
+				<ul class="agileinfo_social_icons w3l">
+					<li><a href="tel:010-7220-8280" class="wthree_twitter"><i class="fa fa-mobile" aria-hidden="true"></i></a></li>
+					<li><a href="http://www.mainme.com" target="_blank" class="agileits_pinterest"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+					<li><a href="https://story.kakao.com/_3HN677" target="_blank" class="w3ls_rss"><i class="fa fa-camera-retro" aria-hidden="true"></i></a></li>
+					<li><!-- a href="https://www.facebook.com/profile.php?id=100025065803890" target="_blank" class="w3_agileits_facebook" --><a href="https://www.facebook.com/chenaeone" target="_blank" class="w3_agileits_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="http://www.mainlove.com" target="_blank" class="wthree_twitter"><i class="fa fa-cube" aria-hidden="true"></i></a></li>
+					<li><a href="http://cafe.daum.net/mainme" target="_blank" class="agileinfo_google"><i class="fa fa-coffee" aria-hidden="true"></i></a></li>
+					<li><a href="https://blog.naver.com/mainme" target="_blank" class="agileits_pinterest"><i class="fa fa-book" aria-hidden="true"></i></a></li>
+					<li><a href="http://www.thisgood.com" target="_blank" class="w3ls_rss"><i class="fa fa-cart-plus" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+
+
+		</div>
+
+
+
+		<div class="agileits_copyright">
+			<p> Copyright &copy; 2020 - <?=date("Y")?> <b>CHENAE</b> All Right Reserved.</p>
+		</div>
+
+	</div>
+
+
+
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="js/jQuery.yuukCountdown.js" ></script>
+    <script>
+        $(function(){
+            $('#js-countDown').yuukCountDown({
+                starttime: '2012/12/12 00:00:00',
+                endtime: '2022/12/31 23:59:59',
+                notStartCallBack: function(time){
+                    console.log("Ready");
+                },
+                startCallBack: function(time){
+                    console.log("Running");
+                },
+                endCallBack: function(time){
+                    console.log("Complete");
+                }
+            });
+        });
+    </script>
+
+
+
+</body>
+</html>
